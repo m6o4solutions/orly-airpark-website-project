@@ -13,6 +13,10 @@ import sharp from "sharp";
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 const iconURL = `${process.env.NEXT_PUBLIC_SERVER_URL}/api/media/file/${process.env.NEXT_PUBLIC_META_ICON}`;
+const isProduction = process.env.NODE_ENV === "production";
+const databaseURI = isProduction
+	? process.env.DATABASE_URI_PRD!
+	: process.env.DATABASE_URI_DEV!;
 
 export default buildConfig({
 	admin: {
@@ -38,7 +42,7 @@ export default buildConfig({
 		user: Users.slug,
 	},
 	collections: collections,
-	db: mongooseAdapter({ url: process.env.DATABASE_URI! }),
+	db: mongooseAdapter({ url: databaseURI }),
 	editor: lexical,
 	email: resend,
 	globals: globals,
