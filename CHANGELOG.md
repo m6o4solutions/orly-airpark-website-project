@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.0.0...v1.1.0) (2025-12-04)
+
+
+### Features
+
+* add fallbackLocale property to Config interface ([c3816c3](https://github.com/m6o4solutions/orly-airpark-website-project/commit/c3816c3edaac9924f7d5ceb248ec01c78b4afb73))
+* add qualities array to images configuration in nextConfig ([38d5546](https://github.com/m6o4solutions/orly-airpark-website-project/commit/38d5546ad776862f774c0d4b2925d6e3c1aa7237))
+* update favicon SVG to use tower control design ([cdc116b](https://github.com/m6o4solutions/orly-airpark-website-project/commit/cdc116b0d0e3d52f57cf0161aec66f7018f76597))
+
 # 1.0.0 (2025-11-17)
 
 ### Features
