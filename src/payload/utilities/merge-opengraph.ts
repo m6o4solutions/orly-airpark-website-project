@@ -5,14 +5,10 @@ import type { Metadata } from "next";
 const defaultOpenGraph: Metadata["openGraph"] = {
 	type: "website",
 	description:
-		"M6O4 delivers trusted, modern technology solutions that help businesses grow with confidence.",
-	images: [
-		{
-			url: `${getServerSideURL()}/abstract-image-1.jpg`,
-		},
-	],
-	siteName: "M6O4 Solutions",
-	title: "M6O4 Solutions",
+		"Orly Airpark is a private airfield in Kenya's Rift Valley. Pilots get runway charts, PPR forms, and membership info for our community.",
+	images: [{ url: `${getServerSideURL()}/orly-airpark-aerial-view.jpg` }],
+	siteName: "Orly Airpark",
+	title: "Orly Airpark",
 };
 
 // merges provided open graph data with defaults to ensure required fields exist

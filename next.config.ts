@@ -3,10 +3,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
 	images: {
+		qualities: [25, 50, 75, 100],
 		remotePatterns: [
 			{
 				protocol: "https",
-				hostname: "**.m6o4solutions.com",
+				hostname: "**.orly-airpark.com",
 			},
 			{
 				protocol: "http",

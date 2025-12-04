@@ -9,7 +9,7 @@ const getImageURL = (image?: Media | Config["db"]["defaultIDType"] | null) => {
 	const serverUrl = getServerSideURL();
 
 	// default image used when no meta image is defined
-	let url = serverUrl + "/website-template-OG.webp";
+	let url = serverUrl + "/orly-airpark-aerial-view.jpg";
 
 	// if a media object is provided, use its og or base url
 	if (image && typeof image === "object" && "url" in image) {
@@ -31,9 +31,7 @@ const generateMeta = async (args: {
 	const ogImage = getImageURL(doc?.meta?.image);
 
 	// append site name to meta title if available
-	const title = doc?.meta?.title
-		? doc.meta.title + " | M6O4 Solutions"
-		: "M6O4 Solutions";
+	const title = doc?.meta?.title ? doc.meta.title + " | Orly Airpark" : "Orly Airpark";
 
 	// compose and return metadata object
 	return {

@@ -45,7 +45,7 @@ export default buildConfig({
 				},
 			],
 			// append a suffix to the browser title for all admin pages.
-			titleSuffix: " | M6O4 Solutions",
+			titleSuffix: " | Orly Airpark",
 		},
 		// set the users collection slug for authentication management.
 		user: Users.slug,
