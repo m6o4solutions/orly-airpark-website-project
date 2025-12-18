@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.1.0...v1.2.0) (2025-12-18)
+
+
+### Features
+
+* add GitHub Actions workflow to build and push Docker image to GHCR ([119f42a](https://github.com/m6o4solutions/orly-airpark-website-project/commit/119f42ae0c85be278077caa1f23668d077147515))
+* add initial Dockerfile and .dockerignore for container setup ([1b9cd9d](https://github.com/m6o4solutions/orly-airpark-website-project/commit/1b9cd9d698d60d92876a2802513b8158cb9d4b5f))
+
 # [1.1.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.0.0...v1.1.0) (2025-12-04)
 
 
