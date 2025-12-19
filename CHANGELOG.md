@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.4.0...v1.5.0) (2025-12-19)
+
+
+### Features
+
+* add Microsoft Clarity tracking integration and update environment config ([a3d0684](https://github.com/m6o4solutions/orly-airpark-website-project/commit/a3d068470697a3691b73c3fd78b477915816f557))
+
 # [1.4.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.3.0...v1.4.0) (2025-12-19)
 
 ### Features
