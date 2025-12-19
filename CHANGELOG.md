@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.3.0...v1.4.0) (2025-12-19)
+
+
+### Features
+
+* update container-retention-policy action to v3.0.1 ([b3074e3](https://github.com/m6o4solutions/orly-airpark-website-project/commit/b3074e3b1d426568d53ee016dd8713af6e603338))
+
 # [1.3.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.2.0...v1.3.0) (2025-12-19)
 
 
