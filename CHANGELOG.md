@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.2.0...v1.3.0) (2025-12-19)
+
+
+### Features
+
+* update GitHub Actions workflows for Docker image management ([f76d657](https://github.com/m6o4solutions/orly-airpark-website-project/commit/f76d65774b01c56d294273e54b27c1da7e916b43))
+
 # [1.2.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.1.0...v1.2.0) (2025-12-18)
 
 
