@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.6.0...v1.7.0) (2025-12-26)
+
+
+### Features
+
+* add docker-compose configuration for orly-airpark service ([126fce0](https://github.com/m6o4solutions/orly-airpark-website-project/commit/126fce0d4c0d12a439684e194d7c28c041062409))
+
 # [1.6.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.5.0...v1.6.0) (2025-12-22)
 
 ### Features
