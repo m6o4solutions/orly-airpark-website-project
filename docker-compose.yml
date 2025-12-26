@@ -1,0 +1,20 @@
+services:
+  orly-airpark:
+    image: ghcr.io/m6o4solutions/orly-airpark-website-project:latest
+    container_name: orly-airpark
+    restart: unless-stopped
+    networks:
+      - traefik-network
+    env_file:
+      - stack.env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.orly-airpark.rule=Host(`vnext.orly-airpark.com`)"
+      - "traefik.http.routers.orly-airpark.entrypoints=websecure"
+      - "traefik.http.routers.orly-airpark.tls.certresolver=letsencrypt"
+      - "traefik.http.services.orly-airpark.loadbalancer.server.port=3000"
+
+networks:
+  traefik-network:
+    external: true
+    name: traefik-network
