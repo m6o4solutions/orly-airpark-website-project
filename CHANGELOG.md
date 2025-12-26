@@ -1,16 +1,16 @@
 # [1.6.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.5.0...v1.6.0) (2025-12-22)
 
-
 ### Features
 
-* enhance ClarityTracker to support debug mode in dev ([c70150b](https://github.com/m6o4solutions/orly-airpark-website-project/commit/c70150ba502d2918a7debc6a9af4ddb642b8a0ee))
+- enhance ClarityTracker to support debug mode in dev
+  ([c70150b](https://github.com/m6o4solutions/orly-airpark-website-project/commit/c70150ba502d2918a7debc6a9af4ddb642b8a0ee))
 
 # [1.5.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.4.0...v1.5.0) (2025-12-19)
 
-
 ### Features
 
-* add Microsoft Clarity tracking integration and update environment config ([a3d0684](https://github.com/m6o4solutions/orly-airpark-website-project/commit/a3d068470697a3691b73c3fd78b477915816f557))
+- add Microsoft Clarity tracking integration and update environment config
+  ([a3d0684](https://github.com/m6o4solutions/orly-airpark-website-project/commit/a3d068470697a3691b73c3fd78b477915816f557))
 
 # [1.4.0](https://github.com/m6o4solutions/orly-airpark-website-project/compare/v1.3.0...v1.4.0) (2025-12-19)
 
